@@ -1,0 +1,850 @@
+a.btn_cust img {
+    transform: scale(2) translateY(4px);
+    transform-origin: bottom;
+    height: 32px;
+    width: auto;
+    transition: .3s
+}
+
+a.btn_cust div {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 16px;
+    font-size: 13px
+}
+
+a.btn_cust {
+    background: #003366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px !important;
+    box-shadow: 0px 10px 20px #00000040;
+    border-radius: 16px;
+    color: white;
+    position: relative
+}
+
+.steper .step_num {
+    position: absolute;
+    background: red;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    border-radius: 51px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    box-shadow: 0px 0px 3px #00000096;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.steper img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.steper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 16px
+}
+
+.prueba_step {
+    padding-left: 16px
+}
+
+.prueba_step h3 {
+    font-size: 22px;
+    padding: 0
+}
+
+.step_wrap:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1e8cbe30;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(2)
+}
+
+.step_wrap {
+    position: relative;
+    z-index: 0;
+    display: flex
+}
+
+img.img_test {
+    outline: 16px solid #2ea2cc30;
+    border: 13px solid #1e8cbe30
+}
+
+a.btn_cust img:hover {
+    transform: scale(2) translateY(0px)
+}
+
+.et_pb_row {
+    padding: 64px 16px !important
+}
+
+div.et_pb_section.et_pb_section_0 {
+    background-position: bottom center;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-71.jpg) !important
+}
+
+.et_pb_section_0.et_pb_section,
+.et_pb_section_6.et_pb_section {
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.et_pb_section_0 {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px !important
+}
+
+.et_pb_row_0 {
+    background-size: contain;
+    background-position: bottom center;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Group-17029.png);
+    overflow-x: visible;
+    overflow-y: visible;
+    z-index: 1 !important;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background-position-y: 66px
+}
+
+.et_pb_row_0.et_pb_row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-right: auto !important;
+    margin-bottom: 128px !important;
+    margin-left: auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.et_pb_row_0,
+body #page-container .et-db #et-boc .et-l .et_pb_row_0.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_0.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_0.et_pb_row {
+    width: 100%
+}
+
+.et_pb_image_0 .et_pb_image_wrap img {
+    height: 500px;
+    max-height: 1000px;
+    width: auto
+}
+
+.et_pb_image_0 {
+    padding-top: 0px;
+    margin-top: 0px !important;
+    margin-left: 66px !important;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    top: 79px;
+    bottom: auto;
+    left: 0px;
+    right: auto;
+    text-align: center
+}
+
+.et_pb_row_1.et_pb_row {
+    padding-top: 42px !important;
+    margin-top: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-top: 42px
+}
+
+div.et_pb_section.et_pb_section_1 {
+    background-position: center left;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-72.png) !important
+}
+
+.et_pb_section_1 {
+    border-radius: 32px 32px 32px 32px;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3)
+}
+
+.et_pb_section_1.et_pb_section {
+    padding-top: 64px;
+    padding-right: 0px;
+    padding-bottom: 64px;
+    padding-left: 0px;
+    margin-top: -32px;
+    background-color: #003366 !important
+}
+
+.et_pb_row_2.et_pb_row,
+.et_pb_row_13.et_pb_row,
+.et_pb_row_5.et_pb_row,
+.et_pb_row_3.et_pb_row,
+.et_pb_row_8.et_pb_row,
+.et_pb_row_14.et_pb_row {
+    padding-top: 30px !important;
+    padding-top: 30px
+}
+
+.et_pb_row_2 {
+    align-items: stretch;
+    background-size: 520px
+}
+
+.et_pb_text_9.et_pb_text,
+.et_pb_text_9 h3,
+.et_pb_text_8.et_pb_text,
+.et_pb_text_8 h3,
+.et_pb_text_0 h1,
+.et_pb_text_0.et_pb_text {
+    color: #FFFFFF !important
+}
+
+.et_pb_text_0 h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #FFFFFF !important
+}
+
+.et_pb_row_3 {
+    background-size: contain;
+    background-position: top right;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Group-17022.png);
+    align-items: center;
+    background-size: 520px
+}
+
+.et_pb_image_1 {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    bottom: auto;
+    left: 0px;
+    right: auto;
+    text-align: left;
+    margin-left: 0
+}
+
+.et_pb_video_1,
+.et_pb_video_1 iframe,
+.et_pb_video_2,
+.et_pb_video_2 iframe,
+.et_pb_video_3,
+.et_pb_video_3 iframe,
+.et_pb_video_0,
+.et_pb_video_0 iframe {
+    border-radius: 32px 32px 32px 32px;
+    overflow: hidden
+}
+
+.et_pb_video_0 {
+    padding-bottom: 0px;
+    margin-top: 0px !important;
+    max-width: 100%;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3)
+}
+
+.et_pb_video_2 .et_pb_video_overlay_hover:hover,
+.et_pb_video_0 .et_pb_video_overlay_hover:hover,
+.et_pb_video_1 .et_pb_video_overlay_hover:hover,
+.et_pb_video_3 .et_pb_video_overlay_hover:hover {
+    background-color: rgba(0, 0, 0, .6)
+}
+
+div.et_pb_section.et_pb_section_2 {
+    background-position: center right;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-74.png) !important
+}
+
+.et_pb_section_2.et_pb_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #f3f9fd !important
+}
+
+.et_pb_row_4.et_pb_row {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.et_pb_row_4,
+body #page-container .et-db #et-boc .et-l .et_pb_row_4.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_4.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_4.et_pb_row,
+.et_pb_row_11,
+body #page-container .et-db #et-boc .et-l .et_pb_row_11.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_11.et_pb_row {
+    max-width: 820px
+}
+
+.et_pb_row_4 {
+    align-items: flex-start
+}
+
+.et_pb_text_18.et_pb_text,
+.et_pb_text_16.et_pb_text,
+.et_pb_text_15.et_pb_text,
+.et_pb_text_14.et_pb_text,
+.et_pb_text_20.et_pb_text,
+.et_pb_text_13.et_pb_text,
+.et_pb_text_12.et_pb_text,
+.et_pb_text_21.et_pb_text,
+.et_pb_text_22.et_pb_text,
+.et_pb_text_10.et_pb_text,
+.et_pb_text_23.et_pb_text,
+.et_pb_text_19.et_pb_text,
+.et_pb_text_11.et_pb_text,
+.et_pb_text_5.et_pb_text,
+.et_pb_text_2.et_pb_text,
+.et_pb_text_6.et_pb_text,
+.et_pb_text_3.et_pb_text,
+.et_pb_text_4.et_pb_text,
+.et_pb_text_1.et_pb_text {
+    color: #003366 !important
+}
+
+.et_pb_text_10,
+.et_pb_text_14,
+.et_pb_text_21,
+.et_pb_text_18,
+.et_pb_text_1,
+.et_pb_text_19,
+.et_pb_text_20 {
+    line-height: 1.2em;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.2em
+}
+
+.et_pb_text_1 h1,
+.et_pb_text_18 h1,
+.et_pb_text_19 h1,
+.et_pb_text_10 h1,
+.et_pb_text_20 h1,
+.et_pb_text_21 h1,
+.et_pb_text_14 h1 {
+    color: #000000 !important
+}
+
+.et_pb_text_1 h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #b5b5b5 !important
+}
+
+.et_pb_text_22,
+.et_pb_text_4,
+.et_pb_text_15,
+.et_pb_text_3,
+.et_pb_text_2,
+.et_pb_text_23,
+.et_pb_text_16,
+.et_pb_text_6,
+.et_pb_text_5,
+.et_pb_text_11,
+.et_pb_text_13,
+.et_pb_text_12 {
+    line-height: 1.2em;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.2em;
+    padding-bottom: 16px !important
+}
+
+.et_pb_image_2 .et_pb_image_wrap img {
+    height: 236px;
+    width: auto
+}
+
+.et_pb_image_2 {
+    text-align: center
+}
+
+.et_pb_video_3,
+.et_pb_video_1 {
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3)
+}
+
+div.et_pb_section.et_pb_section_3 {
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-60.png) !important
+}
+
+.et_pb_section_3 {
+    border-radius: 0 0 0 64px;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3)
+}
+
+.et_pb_section_3.et_pb_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #003366 !important
+}
+
+.et_pb_row_6.et_pb_row {
+    padding-top: 30px !important;
+    padding-bottom: 25px !important;
+    padding-top: 30px;
+    padding-bottom: 25px
+}
+
+.et_pb_image_3 .et_pb_image_wrap img {
+    max-height: none
+}
+
+.et_pb_image_3 {
+    text-align: left;
+    margin-left: 0
+}
+
+.et_pb_text_7.et_pb_text {
+    color: #269fd9 !important
+}
+
+.et_pb_text_7 {
+    line-height: 1.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2em
+}
+
+.et_pb_text_7 h3 {
+    font-size: 60px;
+    color: #FFFFFF !important
+}
+
+.et_pb_text_8,
+.et_pb_text_9 {
+    line-height: 1.2em;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.2em;
+    margin-bottom: 16px !important
+}
+
+div.et_pb_section.et_pb_section_4 {
+    background-position: center left;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Group-17034.png) !important
+}
+
+.et_pb_section_4.et_pb_section {
+    padding-top: 64px;
+    margin-top: -57px
+}
+
+.et_pb_section_4 {
+    background-position: -250px 0px !important
+}
+
+.et_pb_row_7.et_pb_row {
+    padding-top: 67px !important;
+    padding-top: 67px
+}
+
+.et_pb_text_10 h2,
+.et_pb_text_14 h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #b5b5b5 !important
+}
+
+div.et_pb_section.et_pb_section_5 {
+    background-size: contain;
+    background-position: top right;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-60-1.png) !important
+}
+
+.et_pb_section_5.et_pb_section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #f5f8ff !important
+}
+
+.et_pb_section_5 {
+    z-index: 10;
+    box-shadow: 0px 2px 80px 0px rgba(0, 0, 0, 0.35)
+}
+
+.et_pb_row_12,
+.et_pb_row_13,
+.et_pb_row_8,
+.et_pb_row_11 {
+    align-items: center
+}
+
+.et_pb_text_17 h2 {
+    text-transform: uppercase;
+    font-size: 50px
+}
+
+.et_pb_row_10.et_pb_row,
+.et_pb_row_9.et_pb_row {
+    padding-top: 0px !important;
+    padding-top: 0px
+}
+
+.et_pb_row_9 {
+    align-items: stretch
+}
+
+.et_pb_image_5,
+.et_pb_image_4,
+.et_pb_image_6 {
+    width: 104px;
+    text-align: left;
+    margin-left: 0
+}
+
+.et_pb_text_20 h2,
+.et_pb_text_19 h2,
+.et_pb_text_18 h2 {
+    font-size: 32px;
+    color: #b5b5b5 !important
+}
+
+.et_pb_row_10 {
+    align-items: center;
+    background-size: 520px
+}
+
+.et_pb_video_2 {
+    margin-top: 64px !important;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3)
+}
+
+.et_pb_image_7 {
+    position: absolute !important;
+    bottom: 0px;
+    top: auto;
+    left: 0px;
+    right: auto;
+    text-align: left;
+    margin-left: 0
+}
+
+div.et_pb_section.et_pb_section_6 {
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-72-1.png) !important
+}
+
+.et_pb_text_21 h2 {
+    text-transform: uppercase;
+    color: #b5b5b5 !important
+}
+
+body #page-container .et_pb_section .et_pb_button_0 {
+    font-weight: 700 !important;
+    text-transform: uppercase !important
+}
+
+.et_pb_button_0,
+.et_pb_button_0:after {
+    transition: all 300ms ease 0ms
+}
+
+.et_pb_row_12.et_pb_row {
+    padding-top: 30px !important;
+    padding-bottom: 1px !important;
+    padding-top: 30px;
+    padding-bottom: 1px
+}
+
+.et_pb_row_12,
+body #page-container .et-db #et-boc .et-l .et_pb_row_12.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_12.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_12.et_pb_row {
+    width: 66%
+}
+
+.et_pb_code_4 {
+    width: 100%;
+    max-width: 540px;
+    z-index: -1;
+    position: absolute !important;
+    top: 50%;
+    bottom: auto;
+    left: -251px;
+    right: auto;
+    transform: translateY(-50%)
+}
+
+.et_pb_section_7:before {
+    content: "Línea de productos";
+    font-size: 6em;
+    line-height: 1em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    position: absolute;
+    z-index: 1;
+    text-align: center
+}
+
+.et_pb_section_7.et_pb_section {
+    background-color: #f3f9fd !important
+}
+
+.et_pb_image_8 {
+    width: 320px;
+    text-align: center
+}
+
+.et_pb_image_9 {
+    padding-right: 74px;
+    text-align: center
+}
+
+.et_pb_image_10 {
+    padding-right: 26px;
+    width: 320px;
+    text-align: center
+}
+
+.et_pb_section_8.et_pb_section {
+    background-color: #ededed !important
+}
+
+.et_pb_text_24 {
+    margin-top: 32px !important
+}
+
+.et_pb_column_11 {
+    padding-top: 0px
+}
+
+.et_pb_column_13 {
+    background-size: contain;
+    background-position: top left;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Path-76452.png);
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    background-size: 50px;
+    background-position-x: 32px
+}
+
+.et_pb_column_14 {
+    background-size: contain;
+    background-position: top left;
+    background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Group-17030.png);
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    background-size: 50px;
+    background-position-x: 32px
+}
+
+.et_pb_video_1.et_pb_module,
+.et_pb_image_0.et_pb_module {
+    margin-left: auto !important;
+    margin-right: auto !important
+}
+
+.et_pb_video_0.et_pb_module,
+.et_pb_video_2.et_pb_module {
+    margin-left: auto !important;
+    margin-right: 0px !important
+}
+
+.et_pb_row_11.et_pb_row {
+    padding-top: 30px !important;
+    padding-bottom: 1px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 30px;
+    padding-bottom: 1px
+}
+
+@media only screen and (min-width:981px) {
+    .et_pb_section_0:before {
+        content: 'Experiencia Contour';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: -1;
+        line-height: 2.2rem;
+        top: 180px;
+        font-size: 4rem
+    }
+    .et_pb_section_2 {
+        background-position: 85% 0 !important
+    }
+    .et_pb_video_1,
+    .et_pb_video_2 {
+        max-width: 75%
+    }
+    .et_pb_image_7 {
+        width: 380px
+    }
+    .et_pb_image_9 {
+        width: 540px
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .et_pb_image_0 .et_pb_image_wrap img {
+        height: auto
+    }
+    .et_pb_section_2 {
+        background-position: 50% 0 !important
+    }
+    .et_pb_section_2.et_pb_section {
+        background-color: #f3f9fd !important
+    }
+    .et_pb_image_3 .et_pb_image_wrap img {
+        max-height: 320px
+    }
+    div.et_pb_section.et_pb_section_4 {
+        background-image: url(https://tiendacontour.com.mx/wp-content/uploads/2021/11/Mask-Group-72.png) !important
+    }
+    .et_pb_text_10 h2,
+    .et_pb_text_14 h2 {
+        color: #FFFFFF !important
+    }
+    .et_pb_image_4,
+    .et_pb_image_5,
+    .et_pb_image_6 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto
+    }
+    body.logged-in.admin-bar .et_pb_image_7 {
+        top: auto
+    }
+    .et_pb_image_7 {
+        bottom: -89px;
+        top: auto;
+        left: -53px;
+        right: auto;
+        transform: translateX(0px) translateY(0px)
+    }
+    body #page-container .et_pb_section .et_pb_button_0:after {
+        display: inline-block;
+        opacity: 0
+    }
+    body #page-container .et_pb_section .et_pb_button_0:hover:after {
+        opacity: 1
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:980px) {
+    .et_pb_section_0:before {
+        content: 'Experiencia Contour';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: -1;
+        line-height: 5.4rem;
+        top: 40px;
+        font-size: 6rem
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .et_pb_section_0:before {
+        content: 'Experiencia Contour';
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: -1;
+        line-height: 2.4rem;
+        top: 80px;
+        font-size: 3rem
+    }
+    .et_pb_image_0 .et_pb_image_wrap img {
+        height: auto
+    }
+    .et_pb_section_2.et_pb_section {
+        background-color: #f3f9fd !important
+    }
+    .et_pb_text_1 h2,
+    .et_pb_text_17 h2 {
+        font-size: 32px
+    }
+    .et_pb_text_23,
+    .et_pb_text_22,
+    .et_pb_text_16,
+    .et_pb_text_15,
+    .et_pb_text_13,
+    .et_pb_text_12,
+    .et_pb_text_11,
+    .et_pb_text_9,
+    .et_pb_text_8,
+    .et_pb_text_6,
+    .et_pb_text_5,
+    .et_pb_text_4,
+    .et_pb_text_3,
+    .et_pb_text_2 {
+        font-size: 26px
+    }
+    .et_pb_video_1,
+    .et_pb_video_2 {
+        max-width: 100%
+    }
+    .et_pb_image_3 .et_pb_image_wrap img {
+        max-height: none
+    }
+    .et_pb_image_7 {
+        width: 241px;
+        bottom: -177px;
+        top: auto;
+        left: -53px;
+        right: auto;
+        transform: translateX(0px) translateY(0px)
+    }
+    body.logged-in.admin-bar .et_pb_image_7 {
+        top: auto
+    }
+    body #page-container .et_pb_section .et_pb_button_0:after {
+        display: inline-block;
+        opacity: 0
+    }
+    body #page-container .et_pb_section .et_pb_button_0:hover:after {
+        opacity: 1
+    }
+    .et_pb_image_9 {
+        width: 350px
+    }
+}
